@@ -1,5 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+
 import 'package:flutter_app_lds_epsi_2/pages/home/widgets/custom_text_form_field.dart';
 import 'package:flutter_app_lds_epsi_2/pages/product/product_page.dart';
 
@@ -16,9 +18,46 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        bottomNavigationBar: CurvedNavigationBar(
+          color: Color.fromARGB(255, 39, 102, 120),
+          buttonBackgroundColor: Color.fromARGB(255, 22, 135, 167),
+          backgroundColor: Colors.white,
+          items: <Widget>[
+            Icon(Icons.home, size: 40,),
+            Icon(Icons.search, size: 40),
+            Container(
+              height: 50,
+              width: 50,
+              decoration: BoxDecoration(
+                //color: Colors.green,
+                  image: DecorationImage(
+                      fit: BoxFit.fitWidth,
+                      image: AssetImage('assets/img/virtual_reality_logo_button.png')
+                  )
+              ),
+            ),
+
+            Container(
+              height: 50,
+              width: 50,
+              decoration: BoxDecoration(
+                //color: Colors.green,
+                  image: DecorationImage(
+                      fit: BoxFit.fitWidth,
+                      image: AssetImage('assets/img/glasses_logo_button.png')
+                  )
+              ),
+            ),
+
+          ],
+          onTap: (index) {
+            //Handle button tap
+          },
+        ),
         body: SingleChildScrollView(
           child: SafeArea(
               child: Container(
+
                   margin: EdgeInsets.all(20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -106,13 +145,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         onPressed: (){
                           setState(() {
                             textToUpdateState = !textToUpdateState;
-                            textToUpdateState ? textToUpdate == "N'importe quoi " : textToUpdate == "Nouveautés";
+                            //textToUpdateState ? textToUpdate == "N'importe quoi " : textToUpdate == "Nouveautés";
                             print("valeur $textToUpdateState");
-                            /*if(textToUpdateState) {
+                            if(textToUpdateState) {
                               textToUpdate == "N'importe quoi ";
                             } else {
                               textToUpdate == "Nouveautés";
-                            }*/
+                            }
                             print("Valeur text $textToUpdate");
                           });
                         },
