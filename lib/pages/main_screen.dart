@@ -14,7 +14,7 @@ class MainPage extends StatefulWidget {
 class _MainPage extends State<MainPage> {
 
   int selectedIndex = 0;
-  final pages = [HomePageWidget(), ProductPage(), VisualisationPage()];
+  final pages = [HomePageWidget(), VisualisationPage(), ProductPage()];
 
   @override
   Widget build(BuildContext context) {
@@ -29,6 +29,7 @@ class _MainPage extends State<MainPage> {
           items: <Widget>[
             Icon(Icons.home, size: 40,),
             //Icon(Icons.search, size: 40),
+            //Visualisation button
             Container(
               height: 50,
               width: 50,
@@ -40,6 +41,7 @@ class _MainPage extends State<MainPage> {
                   )
               ),
             ),
+            //Product button
             Container(
               height: 50,
               width: 50,

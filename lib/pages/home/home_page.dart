@@ -4,7 +4,6 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 
 import 'package:flutter_app_lds_epsi_2/pages/home/widgets/custom_text_form_field.dart';
-import 'package:flutter_app_lds_epsi_2/pages/product/product_page.dart';
 import 'package:flutter_app_lds_epsi_2/widgets/navbar_key.dart';
 
 class HomePageWidget extends StatefulWidget {
@@ -19,6 +18,22 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Color.fromARGB(255, 39, 102, 120),
+          iconTheme: IconThemeData(
+            color: Colors.black,
+          ),
+          title: Text(
+              "Optic 3000",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 28,
+              letterSpacing: 3,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          centerTitle: true,
+        ),
         body: SingleChildScrollView(
           child: SafeArea(
               child: Container(
