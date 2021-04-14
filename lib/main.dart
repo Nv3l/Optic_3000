@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_lds_epsi_2/pages/home/home_page.dart';
+
+import 'package:flutter_app_lds_epsi_2/pages/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'EPSI - LDS B2',
+      title: 'Optic 300',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePageWidget()
+      home: MainPage()
     );
   }
 }
