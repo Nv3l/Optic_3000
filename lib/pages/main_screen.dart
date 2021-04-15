@@ -25,7 +25,7 @@ class _MainPage extends State<MainPage> {
           animationDuration: const Duration(milliseconds: 350),
           color: Color.fromARGB(255, 39, 102, 120),
           buttonBackgroundColor: Color.fromARGB(255, 22, 135, 167),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.transparent,
           items: <Widget>[
             Icon(Icons.home, size: 40,),
             //Icon(Icons.search, size: 40),
@@ -34,7 +34,6 @@ class _MainPage extends State<MainPage> {
               height: 50,
               width: 50,
               decoration: BoxDecoration(
-                //color: Colors.green,
                   image: DecorationImage(
                       fit: BoxFit.fitWidth,
                       image: AssetImage('assets/img/virtual_reality_logo_button.png')
