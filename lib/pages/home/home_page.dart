@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_app_lds_epsi_2/pages/home/widgets/custom_text_form_field.dart';
 import 'package:flutter_app_lds_epsi_2/widgets/carousel_slider.dart';
+import 'package:flutter_app_lds_epsi_2/widgets/visualisation_button.dart';
 
 
 class HomePageWidget extends StatefulWidget {
@@ -145,7 +146,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ],
                       ),*/
-                      buildTextBoxWithLine("Tendances"),
+                      buildTextBoxWithLine("Tendances", 140),
                       CarouselSliderMultiple(carouselTrend),
                       SizedBox(height: 20),
                       CustomTextFormField(),
@@ -172,19 +173,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           )
                         ],
                       ),*/
-                      buildTextBoxWithLine("News"),
+                      buildTextBoxWithLine("News", 80),
                       CarouselSliderMultiple(carouselNews),
                       SizedBox(height: 40),
-                      buildTextBoxWithLine("Male"),
+                      buildTextBoxWithLine("Male", 70),
                       CarouselSliderMultiple(carouselMale),
                       SizedBox(height: 40),
-                      buildTextBoxWithLine("Female"),
+                      buildTextBoxWithLine("Female", 100),
                       CarouselSliderMultiple(carouselFemale),
                       SizedBox(height: 40),
-                      buildTextBoxWithLine("Favorits"),
+                      VisualisationButton(textToDisplay: "Visualiser",),
+                      SizedBox(height: 40),
+                      buildTextBoxWithLine("Favorits", 105),
                       CarouselSliderMultiple(carouselFavorits),
                       SizedBox(height: 40),
-                      buildTextBoxWithLine("Child"),
+                      buildTextBoxWithLine("Child", 80),
                       CarouselSliderMultiple(carouselChild),
 
                       /*ElevatedButton(
@@ -211,7 +214,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     );
   }
 
-  Widget buildTextBoxWithLine(String text) {
+  Widget buildTextBoxWithLine(String text, double width) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -227,7 +230,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         ),
         Container(
           height: 6,
-          width: 140,
+          width: width,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(50),
             color: Color.fromARGB(255, 22, 135, 167)

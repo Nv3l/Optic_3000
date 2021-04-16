@@ -24,7 +24,7 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
             color: Colors.blue,
           ),
         ),
-        hintText: "Chercher des galeries d'art",
+        hintText: "Chercher des montures",
         suffixIcon: Padding(
           padding: EdgeInsets.all(15.0),
           child: Icon(
