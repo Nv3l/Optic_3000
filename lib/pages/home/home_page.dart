@@ -19,6 +19,15 @@ List<String> carouselNews = [
 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
 ];
 
+List<String> nameCarouselNews = [
+  "Nouveauté 1",
+  "Nouveauté 2",
+  "Nouveauté 3",
+  "Nouveauté 4",
+  "Nouveauté 5",
+  "Nouveauté 6",
+];
+
 List<String> carouselMale = [
   'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
   'https://images.unsplash.com/photo-1522205408450-add114ad53fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=368f45b0888aeb0b7b08e3a1084d3ede&auto=format&fit=crop&w=1950&q=80',
@@ -26,6 +35,15 @@ List<String> carouselMale = [
   'https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89719a0d55dd05e2deae4120227e6efc&auto=format&fit=crop&w=1953&q=80',
   'https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c6e5e3aba713b17aa1fe71ab4f0ae5b&auto=format&fit=crop&w=1352&q=80',
   'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
+];
+
+List<String> nameCarouselMale = [
+  "Homme 1",
+  "Homme 2",
+  "Homme 3",
+  "Homme 4",
+  "Homme 5",
+  "Homme 6",
 ];
 
 List<String> carouselFemale = [
@@ -37,6 +55,15 @@ List<String> carouselFemale = [
   'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
 ];
 
+List<String> nameCarouselFemale = [
+  "Femme 1",
+  "Femme 2",
+  "Femme 3",
+  "Femme 4",
+  "Femme 5",
+  "Femme 6",
+];
+
 List<String> carouselFavorits = [
   'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
   'https://images.unsplash.com/photo-1522205408450-add114ad53fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=368f45b0888aeb0b7b08e3a1084d3ede&auto=format&fit=crop&w=1950&q=80',
@@ -44,6 +71,15 @@ List<String> carouselFavorits = [
   'https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89719a0d55dd05e2deae4120227e6efc&auto=format&fit=crop&w=1953&q=80',
   'https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c6e5e3aba713b17aa1fe71ab4f0ae5b&auto=format&fit=crop&w=1352&q=80',
   'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
+];
+
+List<String> nameCarouselFavorits = [
+  "Favoris 1",
+  "Favoris 2",
+  "Favoris 3",
+  "Favoris 4",
+  "Favoris 5",
+  "Favoris 6",
 ];
 
 List<String> carouselChild = [
@@ -55,6 +91,15 @@ List<String> carouselChild = [
   'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
 ];
 
+List<String> nameCarouselChild = [
+  "Enfant 1",
+  "Enfant 2",
+  "Enfant 3",
+  "Enfant 4",
+  "Enfant 5",
+  "Enfant 6",
+];
+
 List<String> carouselTrend = [
   'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
   'https://images.unsplash.com/photo-1522205408450-add114ad53fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=368f45b0888aeb0b7b08e3a1084d3ede&auto=format&fit=crop&w=1950&q=80',
@@ -62,6 +107,15 @@ List<String> carouselTrend = [
   'https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89719a0d55dd05e2deae4120227e6efc&auto=format&fit=crop&w=1953&q=80',
   'https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c6e5e3aba713b17aa1fe71ab4f0ae5b&auto=format&fit=crop&w=1352&q=80',
   'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
+];
+
+List<String> nameCarouselTrend = [
+  "Tendance 1",
+  "Tendance 2",
+  "Tendance 3",
+  "Tendance 4",
+  "Tendance 5",
+  "Tendance 6",
 ];
 
 class _HomePageWidgetState extends State<HomePageWidget> {
@@ -147,8 +201,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         ],
                       ),*/
                       buildTextBoxWithLine("Tendances", 140),
-                      CarouselSliderMultiple(carouselTrend),
-                      SizedBox(height: 20),
+                      SizedBox(height: 10),
+                      CarouselSliderMultiple(carouselTrend, nameCarouselTrend),
+                      SizedBox(height: 40),
                       CustomTextFormField(),
                       SizedBox(height: 40),
                       /*Row(
@@ -174,21 +229,26 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         ],
                       ),*/
                       buildTextBoxWithLine("News", 80),
-                      CarouselSliderMultiple(carouselNews),
+                      SizedBox(height: 10),
+                      CarouselSliderMultiple(carouselNews, nameCarouselNews),
                       SizedBox(height: 40),
                       buildTextBoxWithLine("Male", 70),
-                      CarouselSliderMultiple(carouselMale),
+                      SizedBox(height: 10),
+                      CarouselSliderMultiple(carouselMale, nameCarouselMale),
                       SizedBox(height: 40),
                       buildTextBoxWithLine("Female", 100),
-                      CarouselSliderMultiple(carouselFemale),
+                      SizedBox(height: 10),
+                      CarouselSliderMultiple(carouselFemale, nameCarouselFemale),
                       SizedBox(height: 40),
-                      VisualisationButton(textToDisplay: "Visualiser",),
+                      VisualisationButton(textToDisplay: "Visualiser"),
                       SizedBox(height: 40),
                       buildTextBoxWithLine("Favorits", 105),
-                      CarouselSliderMultiple(carouselFavorits),
+                      SizedBox(height: 10),
+                      CarouselSliderMultiple(carouselFavorits,  nameCarouselFavorits),
                       SizedBox(height: 40),
                       buildTextBoxWithLine("Child", 80),
-                      CarouselSliderMultiple(carouselChild),
+                      SizedBox(height: 10),
+                      CarouselSliderMultiple(carouselChild,  nameCarouselChild),
 
                       /*ElevatedButton(
                         child: Text("Je clique ici !!!", style: TextStyle(fontSize: 20),),

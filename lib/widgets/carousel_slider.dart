@@ -6,13 +6,16 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 
 import 'package:flutter_app_lds_epsi_2/widgets/navbar_key.dart';
+import 'package:flutter_app_lds_epsi_2/widgets/like_glasses_button.dart';
+//import 'package:flutter_app_lds_epsi_2/widgets/name_glasses_display.dart';
 
 
 class CarouselSliderMultiple extends StatelessWidget {
 
   List<String> imgList = [];
+  List<String> displayName = [];
 
-  CarouselSliderMultiple(List<String> imgList) : imgList = imgList;
+  CarouselSliderMultiple(List<String> imgList, List<String> displayName) : imgList = imgList, displayName = displayName;
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +24,7 @@ class CarouselSliderMultiple extends StatelessWidget {
             options: CarouselOptions(),
             items: imgList.map((item) => Container(
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children:[
                   GestureDetector(
                       onTap: () {
@@ -28,7 +32,48 @@ class CarouselSliderMultiple extends StatelessWidget {
                         navState.setPage(2);
                       },
                       child: Center(
-                        child: CachedNetworkImage(imageUrl: item, fit: BoxFit.cover, width: 260)
+                        child: Container(
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: new CachedNetworkImageProvider(item),
+                              fit: BoxFit.cover,
+
+                            ),
+                            borderRadius: BorderRadius.circular(20),
+                            border: Border.all(width: 9, color: Color.fromARGB(255, 211, 224, 234))
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(left: 170, top: 10),
+                                child: likeGlassesButton(),
+                              ),
+                              SizedBox(width: 250),
+                              Padding(
+                                padding: const EdgeInsets.only(bottom:3.0),
+                                child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                  children:[
+                                    Text(displayName[imgList.indexOf(item)], style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                      shadows: [
+                                        Shadow(
+                                          color: Colors.black,
+                                          blurRadius: 2,
+                                          offset: Offset(3,3)
+                                        )
+                                      ]
+                                      ),
+                                    ),
+                                  ]
+                                ),
+                              ),
+                            ],
+                          )
+                        )
                       )
                   )
                 ],
