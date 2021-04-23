@@ -31,6 +31,8 @@ dependencies:
   cached_network_image: ^2.3.2+1
   curved_navigation_bar: ^0.3.2
   carousel_slider: ^3.0.0
+  flutter_map: ^0.12.0
+  latlong: ^0.6.1
 
 dev_dependencies:
   flutter_test:
