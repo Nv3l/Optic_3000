@@ -5,9 +5,9 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
 
-import 'package:flutter_app_lds_epsi_2/widgets/navbar_key.dart';
-import 'package:flutter_app_lds_epsi_2/widgets/like_glasses_button.dart';
-//import 'package:flutter_app_lds_epsi_2/widgets/name_glasses_display.dart';
+import 'package:optic_3000/widgets/navbar_key.dart';
+import 'package:optic_3000/widgets/like_glasses_button.dart';
+//import 'package:optic_3000/widgets/name_glasses_display.dart';
 
 
 class CarouselSliderMultiple extends StatelessWidget {

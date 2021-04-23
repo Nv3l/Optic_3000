@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app_lds_epsi_2/pages/main_screen.dart';
+import 'package:optic_3000/pages/main_screen.dart';
 
 void main() {
   runApp(MyApp());

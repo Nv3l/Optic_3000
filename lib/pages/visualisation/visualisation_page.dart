@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
-import 'package:flutter_app_lds_epsi_2/widgets/navbar_key.dart';
+import 'package:optic_3000/widgets/navbar_key.dart';
 
 class VisualisationPage extends StatefulWidget {
   @override

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
-import 'package:flutter_app_lds_epsi_2/pages/product/product_page.dart';
-import 'package:flutter_app_lds_epsi_2/pages/visualisation/visualisation_page.dart';
-import 'package:flutter_app_lds_epsi_2/pages/home/home_page.dart';
-import 'package:flutter_app_lds_epsi_2/widgets/navbar_key.dart';
+import 'package:optic_3000/pages/product/product_page.dart';
+import 'package:optic_3000/pages/visualisation/visualisation_page.dart';
+import 'package:optic_3000/pages/home/home_page.dart';
+import 'package:optic_3000/widgets/navbar_key.dart';
 
 class MainPage extends StatefulWidget {
   @override

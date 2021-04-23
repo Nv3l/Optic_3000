@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app_lds_epsi_2/pages/home/widgets/custom_text_form_field.dart';
-import 'package:flutter_app_lds_epsi_2/widgets/carousel_slider.dart';
-import 'package:flutter_app_lds_epsi_2/widgets/visualisation_button.dart';
+import 'package:optic_3000/pages/home/widgets/custom_text_form_field.dart';
+import 'package:optic_3000/widgets/carousel_slider.dart';
+import 'package:optic_3000/widgets/visualisation_button.dart';
 
 
 class HomePageWidget extends StatefulWidget {
