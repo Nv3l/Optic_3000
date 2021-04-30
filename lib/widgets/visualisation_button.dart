@@ -36,8 +36,9 @@ class _VisualisationButtonState extends State<VisualisationButton> {
            child: Row(
              children: [
                Padding(
-                 padding: const EdgeInsets.all(8.0),
-                 child: Text(widget.textToDisplay, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(widget.textToDisplay, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                 ),
                ),
                Icon(Icons.arrow_forward, color: Color.fromARGB(255, 22, 135, 167), size: 40,)
              ],

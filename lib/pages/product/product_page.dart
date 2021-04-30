@@ -2,14 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong/latlong.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 import 'package:optic_3000/pages/product/widgets/select_color_button.dart';
 import 'package:optic_3000/pages/product/widgets/text_information_product.dart';
 import 'package:optic_3000/widgets/visualisation_button.dart';
 import 'package:optic_3000/pages/product/widgets/descriptionGlassesText.dart';
-import 'package:optic_3000/widgets/navbar_key.dart';
 
 class ProductPage extends StatefulWidget {
   @override

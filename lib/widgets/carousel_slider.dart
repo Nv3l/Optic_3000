@@ -7,7 +7,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 import 'package:optic_3000/widgets/navbar_key.dart';
 import 'package:optic_3000/widgets/like_glasses_button.dart';
-//import 'package:optic_3000/widgets/name_glasses_display.dart';
 
 
 class CarouselSliderMultiple extends StatelessWidget {
@@ -34,6 +33,7 @@ class CarouselSliderMultiple extends StatelessWidget {
                       child: Center(
                         child: Container(
                           decoration: BoxDecoration(
+                            color: Colors.white,
                             image: DecorationImage(
                               image: new CachedNetworkImageProvider(item),
                               fit: BoxFit.cover,
